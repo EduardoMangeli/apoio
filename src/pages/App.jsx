@@ -1,11 +1,14 @@
-import logo from './logo.svg';
+import logo from './minha_foto.jpg';
 import './App.css';
+import Menu from '../components/Menu/Menu';
 
 function App() {
   return (
     <div className="App">
+      <Menu />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src="img/minha_foto.jpg" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
