@@ -12,7 +12,7 @@ const rotas = createBrowserRouter([
     element: <App />
   },
   {
-    path: "sobre",
+    path: "/sobre",
     element: <Sobre />
   }
 ])
