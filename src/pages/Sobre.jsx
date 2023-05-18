@@ -24,6 +24,7 @@ const Sobre = () => (
         dados.map(
             (ele, ind) => (
                <Cartao
+                    key={ind}
                     simb={ele.simbolo}
                     descri={ele.descricao}
                     data={ele.data}
