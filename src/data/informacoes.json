@@ -1,0 +1,18 @@
+[
+    {
+        "simbolo": "O",
+        "descricao":"Primeiro dado.",
+        "data":"28/02/1884"
+    },
+    {
+        "simbolo": "T",
+        "descricao":"Segundo dado.",
+        "data":"30/01/2002"
+    },
+    {
+        "simbolo": "L",
+        "descricao":"Terceiro dado.",
+        "data":"05/03/1995"
+    }
+
+]

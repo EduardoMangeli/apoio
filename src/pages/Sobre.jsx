@@ -1,23 +1,36 @@
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
+import dados from "../data/informacoes.json";
+
+/*const dados = [
+    {
+        "simbolo": "W",
+        "descricao": "Primeiro dado.",
+        "data": "28/02/1884"
+    },
+    {
+        "simbolo": "O",
+        "descricao": "Outro dado.",
+        "data": "28/02/1884"
+    }
+];*/
 
 const Sobre = () => (
     <>
     <Menu />
     <h1>Sobre</h1>
     <p>Meu novo teste</p>
-    <Cartao 
-        simb={"O"}
-        data={"28/02/1884"}
-    />
-    <Cartao 
-        simb={"T"}
-        data={"30/01/2002"}
-    />
-    <Cartao 
-        simb={"L"}
-        data={"05/03/1995"}
-    />
+    {
+        dados.map(
+            (ele, ind) => (
+               <Cartao
+                    simb={ele.simbolo}
+                    descri={ele.descricao}
+                    data={ele.data}
+               /> 
+            )
+        )
+    }
     </>
 );
 
