@@ -5,6 +5,7 @@ import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Sobre from './pages/Sobre';
+import Qualquer from './pages/Qualquer';
 
 const rotas = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const rotas = createBrowserRouter([
   {
     path: "/sobre",
     element: <Sobre />
+  },
+  {
+    path: "/qualquer",
+    element: <Qualquer />
   }
 ])
 
