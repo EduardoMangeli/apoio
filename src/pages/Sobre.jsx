@@ -28,6 +28,7 @@ const Sobre = () => (
                     simb={ele.simbolo}
                     descri={ele.descricao}
                     data={ele.data}
+                    cor={ele.cor}
                /> 
             )
         )

@@ -20,6 +20,7 @@ const Simbolo = styled.span`
     font-weight: bolder;
     text-align: center;
     font-size: x-large;
+    background-color: ${(props) => props.cor};
 
     @media screen and (min-width: ${tabletSize}){
         font-size: large;

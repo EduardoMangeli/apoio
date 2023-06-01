@@ -2,7 +2,8 @@
     {
         "simbolo": "O",
         "descricao":"Primeiro dado.",
-        "data":"28/02/1884"
+        "data":"28/02/1884",
+        "cor": "red"
     },
     {
         "simbolo": "T",
